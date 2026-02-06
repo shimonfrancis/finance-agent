@@ -38,6 +38,7 @@ def companies_list_agent(state: MultiAgentState) -> Dict:
     messages = state.get("messages", [])
     logger.info("companies_list_agent called")
     logger.debug(f"Input messages: {messages}")
+    print(messages)
 
     # Add system message for company search
     if not any(isinstance(msg, SystemMessage) for msg in messages):
@@ -91,6 +92,7 @@ def news_agent(state: MultiAgentState) -> Dict:
     selected_companies = state.get("selected_companies", [])
     logger.info(f"news_agent called with {len(selected_companies)} companies")
     logger.debug(f"Companies: {selected_companies}")
+    print(selected_companies)
 
     if not selected_companies:
         return {
