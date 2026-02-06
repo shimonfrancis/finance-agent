@@ -1,0 +1,24 @@
+[project]
+name = "reasearch-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "docling>=2.70.0",
+    "huggingface-hub[hf-xet]>=0.36.0",
+    "ipykernel>=7.1.0",
+    "langchain-chroma>=1.1.0",
+    "langchain-classic>=1.0.1",
+    "langchain-community>=0.4.1",
+    "langchain-core>=1.2.7",
+    "langchain-docling>=2.0.0",
+    "langchain-huggingface>=1.2.0",
+    "langchain-openai>=1.1.7",
+    "langgraph>=1.0.7",
+    "schedule>=1.2.2",
+    "sentence-transformers>=5.2.0",
+    "unstructured[pdf]>=0.18.27",
+    "yfinance>=1.1.0",
+]
+

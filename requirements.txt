@@ -1,0 +1,16 @@
+ipython
+yfinance
+langchain_core
+langchain_classic
+langchain_community
+langchain_groq
+langchain_openai
+langchain_chroma
+langgraph
+pandas
+chromadb
+sentence-transformers
+langchain-huggingface
+ddgs
+google-search-results
+schedule
